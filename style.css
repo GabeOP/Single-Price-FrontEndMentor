@@ -26,7 +26,6 @@ body{
 
 .container-top, .container-mid, .container-bottom{
     padding: 26px;
-    
 }
 
 .container-top{
@@ -80,6 +79,10 @@ body{
     color: rgb(255, 255, 255);
     margin-top: 26px;
 }
+.container-mid button:hover{
+    background-color: hsl(71, 86%, 61%);
+    cursor: pointer;
+}
 
 /* FIM CONTAINER MID */
 
@@ -110,6 +113,10 @@ body{
     .container-mid{
         border-radius: 0 0 0 10px ;
     }
+    .container-mid button{
+        margin-top: 46px;
+    }
+    
     .container-bottom{
         border-radius: 0 0 10px 0;
     }
